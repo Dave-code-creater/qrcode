@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qrCode"
+version = "0.1.0"
+description = "A Python project to generate QR codes and add text to them."
+authors = ["Dave-code-creater tatandat110105@gmail.com"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+qrcode = "^8.0.0"
+Pillow = "^11.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
